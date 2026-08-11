@@ -1,0 +1,30 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+:root {
+    --Orange-500: hsl(25, 97%, 53%);
+
+    --White: hsl(0, 100%, 100%);
+    --Grey-500: hsl(217, 12%, 63%);
+    --Grey-900: hsl(213, 19%, 18%);
+    --Grey-950: hsl(216, 12%, 8%);
+}
+
+body {
+    margin: 0;
+    font-size: 15px;
+    font-family: Overpass, sans-serif;
+    background-color: var(--Grey-950);
+}
+
+.attribution { 
+    font-size: 0.6875rem; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
